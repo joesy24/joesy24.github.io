@@ -1,0 +1,97 @@
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("contact.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tangerine;
+}
+
+.main{
+    margin: 75px 90px 0px 300px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+#top{
+    display: inline;
+}
+ul li a{
+    margin-top: 10px;
+    padding:5px 25px;
+    transition: 0.6s ease;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    opacity: 0.6;
+}
+
+.container{
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 500%;
+    word-spacing: 20px;
+}
+
+h2{
+    font-size: 300%;
+    word-spacing: 20px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: transparent;
+    resize: vertical;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+input[type=submit]{
+    background: transparent;
+    border: 2px solid black;
+    font-size: 200%;
+    float: right;
+}
+
+input[type=submit]:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+    transform: translateY(-20px );
+}
+.social{
+    float: none;
+    list-style-type: none;
+}
+
+#look{
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.copyright{
+    font-size: medium;
+    text-align: center;
+    font-family: Sacramento;
+}

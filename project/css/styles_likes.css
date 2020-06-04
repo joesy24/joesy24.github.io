@@ -1,0 +1,105 @@
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("edu.jpg") ;
+    background-attachment: fixed;
+}
+
+ul li{
+    list-style-type: none;
+    margin : 20px 0px 0px 0px;
+    font-family: Cabin Sketch;
+}
+
+.link{
+    font-size: 200%;
+    color: lightgrey;
+}
+
+#symbol{
+    color: lightgrey;
+}
+
+.fixed{
+    color: cyan;
+    font-family: Fredericka the Great;
+    font-size: 300%;
+    margin: 0px 0px 0px 15px;
+}
+
+p{
+    font-size: 225%;
+    font-family: Sacramento;
+    color: lightgray;
+}
+
+.copyright{
+    font-size: 150% ; 
+    margin: 0px 0px 0px 15px;
+}
+.main{
+    float:left ;
+    position: fixed;
+}
+
+.content{
+    margin: 40px 0px 0px 390px;
+}
+
+.quote{
+    font-family: Tangerine;
+    font-size: 275%;
+    color: greenyellow;
+}
+
+#pic{
+    margin-left: 30px;
+    width: 50%;
+    height: 75%;
+    border-radius: 100%;
+}
+
+h2{
+    font-family: Sacramento;
+    font-size: 225%;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.skills{
+    list-style-type: circle;
+    font-family: Sacramento;
+    font-size: 200%;
+    color: lightgray;
+    font-family: Great Vibes;
+}
+
+.container{
+    width: 100%; height: auto;
+    text-align: center;
+}
+.hobbies{
+    padding: 20px;
+    border-radius:3px ;
+    transition:0.3s ;
+}
+
+.hobbies:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
+    transform: translateY(-20px );
+}
+
+#proof:hover{
+    opacity: 0.4;
+}
+
+.modal-dialog{
+    max-width: 60%;
+}
+
+#myModal{
+    overflow: hidden;
+}

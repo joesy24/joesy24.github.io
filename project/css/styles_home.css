@@ -1,0 +1,49 @@
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    margin: 120px 0px 0px 200px ;
+    font-size: 500%;
+    font-family: Fredericka the Great;
+}
+
+.quote{
+    margin : 5px 0px 0px 900px ;
+    font-family: Tangerine;
+    font-size: 300%;
+}
+
+p{
+    font-family: Sacramento;
+    margin: 25px 600px 0px 30px;
+    font-size: 200%;
+    color: bisque;
+}
+
+.links{
+    float: right;
+}
+
+li{
+    list-style-type: none;
+}
+
+#symbol{
+    color: lightgrey;
+    size: 150%;
+}
+.link{
+    color: lightgrey;
+    margin : 0px 0px 20px 0px;
+    border-style: hidden;
+    padding: 1.5px ;
+    font-size: 150%;
+}
+

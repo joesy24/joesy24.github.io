@@ -1,0 +1,62 @@
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("edu.jpg") ;
+    background-attachment: fixed;
+}
+
+ul li{
+    list-style-type: none;
+    margin : 20px 0px 0px 20px;
+    font-family: Cabin Sketch;
+}
+
+.link{
+    font-size: 200%;
+    font-family: Cabin Sketch;
+    color: lightgrey;
+}
+
+#symbol{
+    size: 2000%;
+    color: lightgrey;
+}
+
+h1{
+    color: cyan;
+    font-family: Fredericka the Great;
+    font-size: 300%;
+}
+
+.fixed{
+    margin: 0px 0px 0px 15px;
+}
+
+.copyright{
+    font-size: 150% ; 
+    margin: 0px 0px 0px 15px;
+}
+
+p{
+    font-size: 225%;
+    font-family: Sacramento;
+    color: lightgray;
+}
+
+.main{
+    float:left ;
+    position: fixed;
+    
+}
+
+.content{
+    margin-left: 400px;
+}
+
+h2{
+    font-family: Tangerine;
+    color: greenyellow;
+    font-size: 300%;
+}
