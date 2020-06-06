@@ -29,7 +29,9 @@ a:hover{
     color: black;
     opacity: 0.6;
 }
-
+.nav{
+    float: right;
+}
 .container{
     margin-top: 70px;
 }
@@ -95,15 +97,13 @@ p{
     .nospec{
         display: none;
     }
+    
     .spec{
         display: block;
     }
 }
 
 @media (max-width: 890px){
-    ul{
-        float: none;
-    }
     body{
         background-image: url("smcontact.jpg");
         margin: 70px 0px 0px 0px;
@@ -112,11 +112,18 @@ p{
     .container{
         margin-top: 5px;
     }  
+    .nav{
+        float: none;
+        align-content: center;
+        margin-left: 20px;
+    }
 }
 @media (max-width: 540px){
     h1{
-        font-size: 400%;
+        margin-top: 20px;
+        font-size: 250%;
     }
+    
     input[type=submit]{
         float: none;
     }

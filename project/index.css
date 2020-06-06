@@ -102,6 +102,7 @@ ul li a{
     }
     .cspec{
         display: block;
+        margin-left: 10px;
     }
     .nospec{
         display: none;
