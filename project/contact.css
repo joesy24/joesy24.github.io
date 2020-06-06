@@ -1,19 +1,16 @@
-a:hover{
-    text-decoration: none;
-}
-
 body{
-    background-image: url("contact.jpg") ;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    padding: 0;
+    background: url("contact.jpg") fixed;
     background-size: cover;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 60px 70px 0px 300px;
     font-family: Tangerine;
 }
 
-.main{
-    margin: 75px 90px 0px 300px;
+a:hover{
+    text-decoration: none;
 }
-
 ul{
     float: right;
     list-style-type: none;
@@ -45,10 +42,10 @@ h1{
 h2{
     font-size: 300%;
     word-spacing: 20px;
-
+    text-align: center;
 }
 
-input[type=text], select, textarea {
+ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -58,10 +55,6 @@ input[type=text], select, textarea {
     letter-spacing: 2px;
     background: transparent;
     resize: vertical;
-}
-
-input::placeholder{
-    padding-left: 10px;
 }
 
 input[type=submit]{
@@ -80,10 +73,6 @@ input[type=submit]:hover{
     list-style-type: none;
 }
 
-#look{
-    margin-bottom: 30px;
-}
-
 p{
     font-size: 200%;
     font-weight: bold;
@@ -94,4 +83,41 @@ p{
     font-size: medium;
     text-align: center;
     font-family: Sacramento;
+}
+.fa{
+    color: black;
+}
+
+.spec{
+    display: none;
+}
+@media (max-width: 1285px){
+    .nospec{
+        display: none;
+    }
+    .spec{
+        display: block;
+    }
+}
+
+@media (max-width: 890px){
+    ul{
+        float: none;
+    }
+    body{
+        background-image: url("smcontact.jpg");
+        margin: 70px 0px 0px 0px;
+        width: 100%;
+    }
+    .container{
+        margin-top: 5px;
+    }  
+}
+@media (max-width: 540px){
+    h1{
+        font-size: 400%;
+    }
+    input[type=submit]{
+        float: none;
+    }
 }

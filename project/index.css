@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    background: url("background2.jpg") fixed;
+    background-size: cover;
+    min-height: 100%;
+    margin: 160px 40px 0px 40px;
+}
+a {
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+    color: black;
+}
+div{
+    margin: 0px;
+}
+h1{
+    font-size: 500%;
+    font-family: Fredericka the Great;
+}
+.cspec{
+    display: none;
+}
+.cspec ul li{
+    display: inline;
+}
+.Header{
+    margin-left: 80px;
+}
+.quote{
+    font-family: Tangerine;
+    font-size: 175%;
+    text-align: right;
+}
+.description{
+    font-family: Sacramento;
+    font-size: 200%;
+    color: bisque;
+    margin-right: 560px;
+}
+ul li{
+    list-style-type: none;
+    text-align: right;
+}
+ul li a{
+    font-family: Cabin Sketch;
+    color: lightgray;
+    font-size: 150%;
+}
+#symbol{
+    color: lightgray;
+}
+.copyright{
+    font-family: Sacramento;
+    text-align: center;
+    color: black;
+}
+@media (max-width:1250px){
+    .description{
+        margin-right: 260px;
+    }
+}
+@media (max-width:970px){
+    body{
+        margin-top: 120px;
+        background-image: url("smmain.jpg");
+    }
+    .description{
+        margin-right: 120px;
+    }
+}
+@media (max-width: 700px){
+    body{
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 0px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .Header
+    {
+        font-size: 85%;
+        margin-top:10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .description{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .quote{
+        margin-top: 40px;
+        font-size: 150%;
+        margin-right: 10px;
+    }
+    #author{
+        text-align: right;
+        margin-right: 20px;
+    }
+    .cspec{
+        display: block;
+    }
+    .nospec{
+        display: none;
+    }
+    #symbol{
+        color: black;
+    }
+}

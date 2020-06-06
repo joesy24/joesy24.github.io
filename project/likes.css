@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("edu.jpg") fixed;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+a:hover {
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.pos-f-t{
+    display: none;
+    z-index: 999;
+    position: relative;
+}
+ ul li {
+    list-style-type: none;
+    text-align: center;
+}
+.link{
+    font-size: 200%;
+    font-family: Cabin Sketch;
+    color: lightgrey;
+}
+#symbol{
+    color: lightgrey;
+}
+.menu ul li a{
+    cursor: pointer;
+    width: 100%;
+}
+ .p-4 ul li a{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 15px 15px 10px;
+    border-radius: 30px;
+    line-height: 45px;
+    margin-top:20px;
+    transition: 0.1s all ease-in-out;
+}
+.p-4 h1 {
+    margin-top: 20px;
+}
+.menu {
+    z-index: 9999;
+}
+.mainMenu {
+    padding-left: 25px;
+    margin-top: 50px;
+}
+.mainContent {
+    overflow-y: scroll;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+h1{
+    color: cyan;
+    font-family: Fredericka the Great;
+    font-size: 300%;
+    text-align: center;
+}
+p{
+    font-size: 225%;
+    font-family: Sacramento;
+    color: lightgray;
+}
+.footer h1{
+    margin-top: 50px ;
+}
+.footer p{
+    margin-top: 200px;
+}
+.copyright{
+    font-size: 150% ; 
+    text-align: center;
+}
+.quote{
+    font-family: Tangerine;
+    font-size: 275%;
+    color: greenyellow;
+    margin-top: 30px;
+}
+
+#name{
+    text-align: right;
+}
+
+#pic{
+    margin-left: 30px;
+    width: 50%;
+    height: 75%;
+    border-radius: 100%;
+}
+
+h2{
+    font-family: Sacramento;
+    font-size: 225%;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.skills{
+    list-style-type: circle;
+    font-size: 200%;
+    font-family: Great Vibes;
+    text-align: justify;
+}
+
+.container{
+    width: 100%; height: auto;
+    text-align: center;
+}
+.hobbies{
+    padding: 20px;
+    border-radius:3px ;
+    transition:0.3s ;
+}
+
+.hobbies:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
+    transform: translateY(-20px );
+}
+
+#proof:hover{
+    opacity: 0.4;
+}
+
+.modal-dialog{
+    max-width: 60%;
+    
+}
+
+#myModal{
+    overflow: hidden;
+}
+@media (max-width: 1086px) {
+    .mainContent {
+        overflow-y: visible;
+    } 
+    .content {
+        width: 100%;
+        padding: 5px
+    }
+    .mainContent {
+        min-width: 100% !important;
+        padding: 25px;
+        margin-top: 5px;
+    }
+    .mainMenu {
+        padding: 0;
+    }
+    nav ul li a {
+        display: block;
+        margin:0;
+        border-radius: 0;
+        text-align: center;
+    }
+    .logo {
+        margin-top: 5px;
+        text-align:center;
+        padding: 0;
+    }
+    .nav-collapse {
+        display:none
+    }
+    .modal-dialog{
+        max-width: 100%;
+    }
+    .pos-f-t {
+        display: block;
+    }
+    .navbar-toggler {
+        width: 100%;
+    }
+}
+@media (min-width: 1086px) {
+    .top-margin{
+        margin-top: 10px;  
+    }
+}
+.footer .content {
+    margin:0px auto;
+}
