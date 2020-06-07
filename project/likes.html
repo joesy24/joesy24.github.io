@@ -73,20 +73,47 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class=" hobbies col-lg-4 col-md-4 col-12 ">
+                        <div class=" hobbies col-lg-4 col-md-4 col-12 " onclick="toggleText()">
                             <img id="pic" src="read.jpg"><br><br>
                             <h2>Reading</h2>
                         </div>
-                        <div class=" hobbies col-lg-4 col-md-4 col-12 ">
+                        <div class=" hobbies col-lg-4 col-md-4 col-12 " onclick="toggletext2()">
                             <img id="pic" src="travel.jpg"><br><br>
                             <h2>Travelling</h2><br><br>
                         </div>
-                        <div class=" hobbies col-lg-4 col-md-4 col-12">
+                        <div class=" hobbies col-lg-4 col-md-4 col-12" onclick="toggleText3()">
                             <img id="pic" src="food.jpg"><br><br>
                             <h2>Exploring New Tastes</h2>
                         </div>
                     </div>
                 </div><br>
+
+                <div id="reading" style="display: none;">
+                    <p style="color: khaki;">
+                        Reading creates an alternate reality for me.It is a direct mode of conversation between the author and the reader. It has made me realise 
+                        that the way of perceiving defines who we actually are. "Merchant of Venice" by William Shakespeare is my all-time favourite. Whenever life around 
+                        me goes rough, there will always be a character to relate with. And the biggest perk of reading, as I understand it, is that you get to easily 
+                        camouflage with the world around you, for reading broadens our mind.
+                    </p>
+                </div>
+    
+                <div id="travelling" style="display: none;">
+                    <p style="color: khaki;">
+                        There is nothing quite like traveling, like seeing a new place for the first time or returning to a favorite one.It is merely a superior
+                        feeling: to go to another country, and to see people live differently, speak differently, look differently. This is how we come to understand
+                        how big and crazy our world is.Something I realised from travelling is that you get to know what "being home" actually means. This forces us to 
+                        be adventurous, to live life to the fullest, to make the most of this precious gift and use the time we have to discover new things, and meet 
+                        new people. There are no hesitations.<br><b>Go and Explore.</b> 
+                    </p>
+                </div>
+    
+                <div id="fooding" style="display: none;">
+                    <p style="color: khaki;">
+                        The best part of every travel is the different tastes you discover. I have seen people who eat like, literally, nothing in the name of diet.
+                        But I, on the other hand, am a foodie. I believe that what we eat becomes good or bad based on our intentions. If we honor the cow when we
+                        eat cheese, it will be good for our body. When we go to another place, what they serve us is a token of their love and respect to us. 
+                    </p>
+                </div>
     
                 <p>But life ain't all about doing the deeds that bring us happiness. Every chapter of life is a realisation of who we are and what we are capable of acheiving
                     and accomplishing. We acheive skills over time, be it academic or non-academic, just like I became good at public speaking.<br>
@@ -145,10 +172,42 @@
                 </p>
             </div>
     
-        <!-- END POSTS -->
-    
-
     </body>
+
+    <script>
+
+        function toggleText(){
+            var text = document.getElementById("reading");
+            if (text.style.display === "none"){
+                text.style.display = "block";
+            }
+            else{
+                text.style.display = "none";
+            }
+        }
+
+        function toggletext2(){
+            var opine = document.getElementById("travelling");
+            if (opine.style.display === "none"){
+                opine.style.display = "block";
+            }
+            else{
+                opine.style.display = "none";
+            }
+        }
+
+        function toggleText3(){
+            var food = document.getElementById("fooding");
+            if (food.style.display === "none"){
+                food.style.display = "block";
+            }
+            else{
+                food.style.display = "none";
+            }
+        }
+
+    </script>
+
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
